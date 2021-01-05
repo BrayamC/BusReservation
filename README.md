@@ -18,9 +18,9 @@
 Bus Reservation allows you to buy a ticket and view bus route times though a command line interface. All data -- such as tickets, bus prices, account information.. etc -- is stored in a SQLITE databse. 
 ...
 
-![](https://i.imgur.com/XvknwfR.gif)
 
- ---
+
+---
 #### Technologies
 - Java
 - SQLITE
@@ -33,16 +33,22 @@ Bus Reservation allows you to buy a ticket and view bus route times though a com
 ### Installation
 Add sqlite-jdbc-3.32.3.2.jar to Reference Libraries \
 sql/data.sqlite holds all the data 
-### How to use
+
+---
+## How to use
 Login with this account: \
 Username: exclusivespeak \
-Password: abLHtUmKkwtbNd2 \
-Note: Currently, all passwords are saved as as unhashed strings
+Password: abLHtUmKkwtbNd2 
+
+### Demo
+---
+![](https://i.imgur.com/XvknwfR.gif)
+
+Note: Currently, all passwords are saved as as unhashed strings 
 
 [Back To The Top](#read-me-template)
 
 ---
-
 ## License
 
 MIT License
