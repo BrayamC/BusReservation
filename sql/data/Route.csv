@@ -1,0 +1,9 @@
+R_RouteId,R_DepatureTime,R_DepatureLocation,R_ArrivalTime,R_ArrivalLocation,R_AvailableSeats
+1,07:00:00,Merced,08:00:00,Modesto,0
+2,18:00:00,Modesto,19:00:00,Merced,0
+3,06:00:00,Merced,10:00:00,LA,0
+4,17:00:00,LA,21:00:00,Merced,0
+5,09:00:00,Merced,09:45:00,Turlock,0
+6,18:45:00,Turlock,19:30:00,Merced,0
+7,06:00:00,Merced,07:30:00,Fresno,0
+8,19:00:00,Fresno,20:00:00,Merced,0
