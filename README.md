@@ -1,9 +1,9 @@
   
-# Bus Reservation
+# QT Graphing Calculator
 
 ### Table of Contents
 
-- [Bus Reservation](#Bus-Reservation)
+- [QT Graphing Calculator](#QT-Graphing-Calculator)
     - [Table of Contents](#table-of-contents)
   - [Description](#description)
       - [Technologies](#technologies)
@@ -15,36 +15,45 @@
 ---
 
 ## Description
-Bus Reservation allows you to buy a ticket and view bus route times though a command line interface. All data -- such as tickets, bus prices, account information.. etc -- is stored in a SQLITE databse. 
+The project fits inside the second category as a useful app. We decided to utilize the QTCreator software to test the knowledge gained from UC Merced's CSE165 course. To successfully create a graphing calculator app we fulfilled the requirements as follows:
+Requirements
+- User must be able to input data via a graphical user interface
+    - The user is able to input mathematical operations to either with or without a graph plot
+- Data must be processed with one or more algorithms
+    - The output shown on the graph plot was processed with an algorithm to parse user input text into mathematical functions
+ - Data must be output in a useful format
+    - The output on the graphing calculator is useful for providing a visual aid for polynomial graphs either linear or up to any Degree. 
+
 ...
 
 
 
 ---
 #### Technologies
-- Java
-- SQLITE
-- SQLITE JDBC
+- C++
+- QT Widget Toolkit
+- QTCustomPlot Library
 
 [Back To The Top](#read-me-template)
 
 ---
 
 ### Installation
-Add sqlite-jdbc-3.32.3.2.jar to Reference Libraries \
-sql/data.sqlite holds all the data 
+1. Download QT: https://www.qt.io/
+2. Download source code and run through QT
+3. Open application by clicking on calculator.pro
+4. Follow default instructions set by QT
 
 ---
 ## How to use
-Login with this account: \
-Username: exclusivespeak \
-Password: abLHtUmKkwtbNd2 
-
-### Demo
+Examples of equations: “y = x^2+56”, “y = 4x^3+5x-2”, “y = 4, x^2-5”, “-2x^2+5”
+Limitations: all numbers must be a whole number, exponents must be positive.
+### Screenshots
 ---
-![](https://i.imgur.com/XvknwfR.gif)
+![](https://i.imgur.com/nrLbfy4.png =350x450) ![](https://i.imgur.com/pbwoRJ0.png =350x450)
 
-Note: Currently, all passwords are saved as as unhashed strings 
+
+ 
 
 [Back To The Top](#read-me-template)
 
@@ -53,7 +62,7 @@ Note: Currently, all passwords are saved as as unhashed strings
 
 MIT License
 
-Copyright [2020] [Brayam Corral Flores, Irma Gonzalez]
+Copyright [2020] [Brayam Corral Flores, Betsy Avila, Eric Li]
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
@@ -74,6 +83,7 @@ limitations under the License.
 ## Contributors
 
 - Brayam Corral Flores - https://github.com/BrayamC
-- Irma Gonzalez
+- Betsy Avila - https://github.com/ericli33
+- Eric Li - https://github.com/betsya97
 
 [Back To The Top](#read-me-template)
